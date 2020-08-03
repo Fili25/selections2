@@ -1,3 +1,6 @@
+git rm -r --cached
+git add .
+git commit - "Atualizando .gitignore para..."
 /mysite/*
 /selectapp/*
 !/selectapp/static/
