@@ -1,0 +1,104 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static '/images/favicon.png' %}" type="image/png">
+    <title>Test</title>
+  </head>
+  <body>
+      <div class="content">
+            <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #333333;">
+                <div class="container-fluid">
+                    <a href="/index.html" class="navbar-brand"><img src="{% static 'images/logo.svg' %}"  alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarresponsive"> 
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarresponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                            <a href="/index.html" class="nav-link">MAIN</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="/about.html" class="nav-link">ABOUT US</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="/lk.html" class="nav-link">PROFILE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">COIN </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </nav>
+            <div class="container text-center" >
+                <h1 class="part">
+                    1/128
+                </h1>
+            </div>
+           <div class="container">
+                <div class="row text-center padding " id="test" >
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-middle" >
+                       <a href="#"><img src="{% static 'images/cola.jpg' %}" id="pic" alt=""></a>
+                        <p class="namepic">@selectionsworld</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 justify-content-middle">
+                        <img src="{% static 'images/vs.svg' %}" class="vs"  alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+                        <a href="#"><img src="{% static 'images/vertp.jpg' %}" id="pic"  alt=""></a>
+                        <p class="namepic">@selectionsworld</p>
+                    </div>
+                </div>
+           </div>
+           
+        </div>       
+           
+    
+                <!-- футер -->
+                <footer class="container-fluid">
+                    <div class="container">
+                        <div class="row text-center padding">
+                            <div class="col-xs-6 col-sm-6 col-md-3">
+                                <img src="{% static 'images/DA.png' %}" class="ss" alt="">
+                                <p class="sst">@selectionsworld</p>
+                            </div> 
+            
+                            <div class="col-xs-6 col-sm-6 col-md-3">
+                                <img src="{% static 'images/FB.png' %}" class="ss" alt="">
+                                <p class="sst">@selectionsworld</p>
+                            </div> 
+            
+                            <div class="col-xs-6 col-sm-6 col-md-3">
+                               <a href="https://www.instagram.com/selections.world/">
+                                <img src="{% static 'images/INST.png' %}" class="ss" alt="">
+                               </a> 
+                                <p class="sst">@selections.world</p>
+                            </div> 
+                            <div class="col-xs-6 col-sm-6 col-md-3">
+                              <a href="https://www.vk.com/selections.world/">
+                                <img src="{% static 'images/vk.png' %}" class="ss" alt="">
+                              </a>
+                                
+                                <p class="sst">@selections.world</p>
+                            </div> 
+                        </div>
+                        
+                    </div>
+                
+            
+                </footer>
+                <script type="text/javascript" src={% static "js/jquery-3.4.1.slim.min.js" %}></script>
+                <script type="text/javascript" src={% static "js/bootstrap.min.js" %}></script>
+    </body>
+</html>
