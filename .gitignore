@@ -1,0 +1,4 @@
+/mysite/*
+/selectapp/*
+!/selectapp/static/
+!manage.py
