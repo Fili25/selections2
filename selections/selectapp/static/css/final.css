@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,900&display=swap');
+
+
+body,html{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    grid-template-rows: 1fr auto;
+
+}
+
+  
+ 
+  .htest{
+      align-self: center;
+      justify-self: center;
+      font-size: 70px;
+      font-weight: 700;
+  }
+
+
+  .buttont {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    color: #333333;
+    padding: 12px 25px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: #ffff00;
+    margin: 10px;
+    
+    transition: font-size 0.5s, border-radius 0.5s, padding 0.5s;
+  }
+  .buttont:hover {
+    font-size: 15px;
+    border-radius: 130px;
+    padding: 13px 26px;
+    background-color: #dfdf00;
+    color: #333333;
+    text-decoration: none;
+    transition: background-color 0.5s,font-size 0.5s, border-radius 0.5s, padding 0.5s;
+  }
+.navbar-brand img{
+    width: 200px;
+}
+.navbar-nav li
+{
+   padding-right: 20px; 
+}
+.nav-link
+{
+    font-size: 1.1em !important;
+    color: #ffff00 !important;
+    
+    
+}
+.nav-link:hover
+{
+    font-size: 1.1em !important;
+    background-color: #ffff00;
+    border-radius: 2px;
+    color: #333333 !important;
+    transition: color 0.5s,background-color 1s;
+}
+
+.padding
+{padding-bottom: 0em;}
+
+
+.alert{
+    
+    width:75%;
+    margin:0 auto;
+    padding-top: 2em;
+}
+.alert hr{
+border-top: 2px solid rgb(235, 235, 235);
+width: 95%;
+margin-top: 0.3em;
+margin-bottom:1em;
+}
+
+.ss {
+    margin:5px;
+    width: 50px;
+}
+.ss:hover {
+    margin:3px;
+    width: 52px;
+}
+.namepic{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px ;
+}
+.sst{
+    font-weight: 700;
+}
+
+
+
+#opentests {
+    margin-bottom: 25px;
+}
+
+#tests img{
+   max-width:100%;
+   max-height:200px;
+   margin-bottom: 10px;
+   object-fit: cover;
+}
+footer{
+
+    background-color:#333333;
+    padding-top: 30px;
+    border-top: 4px solid #ffff00;
+    border-right: 4px solid #ffff00;
+    color: #ffff00;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+@media (max-width)
+{
+    .display-4{
+        font-size: 1.5em;
+    }
+}
+
+.card img
+{
+ max-height: 150px;
+ object-fit: contain;
+}
+
+
+.h1main{
+    
+    margin-top:100px ;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffff00;
+    
+
+}
+.h2main{
+    
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffff00;
+   
+
+}
+
+#headback
+{
+    border-top:  4px solid floralwhite;
+    border-bottom:  4px solid floralwhite;
+    background: url("../images/fon.png") no-repeat center center fixed;
+    background-blend-mode:multiply ;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    
+}
+.display-3
+{
+
+    font-weight: 500;
+}
+
+
+
+
+
+
+#test
+{
+
+    margin-top: 50px;
+   
+
+}
+#test img{
+    
+    width: 400px; height: 400px; 
+}
+#test .vs
+{   
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: -30px;
+}
+.part
+{   
+    
+    font-weight: 900;
+    margin-top: 0px;
+    background-color: #ffff00;
+    
+}
+#pic1
+{
+    
+    border-bottom:  6px solid #ffff00;
+    border-left: 6px solid #ffff00;
+   
+}
+
+
+#results {
+    overflow-y:scroll;
+    
+        /* Добавляем полосы прокрутки */
+    width: 80%; /* Ширина блока */
+    height: 510px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 5px;
+    
+    background: #e7e7e725;
+    border-right: solid 5px #333333;
+    border-bottom: solid 5px #333333;
+    border-left: solid 5px #ffff00;
+    border-top: solid 5px #ffff00; /* Параметры рамки */
+   } 
+   label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+#filit
+{
+
+font-weight:900 ;
+margin-right: 10px;
+
+}
+
+@media (max-width: 767px) {
+
+            #test .vs
+                {   
+                
+                height: 50%;
+                width: 50%;
+                min-width: 50%;
+                min-height: 50%;
+                margin-bottom: -20px;
+                margin-top: -20px;
+                }
+            #costil{
+                display:none;
+                }
+
+            #test img{
+                
+                width: 170px; height: 170px; 
+                }
+
+            .h1main{
+                
+                margin-top:35px ;
+                font-weight: 900;
+                font-size: 30px;
+                color: #ffff00;
+                
+
+                }
+          
+            .navbar-brand img
+                {
+                width: 110px;
+                }
+            .buttonh
+            {
+                display: inline-block;
+                text-decoration: none;
+                font-weight: 900;
+                font-size: 15px;
+                color: #333333;
+                padding: 15px 30px;
+                border-radius: 50px;
+                text-transform: uppercase;
+                background-color: #ffff00;
+                margin-bottom: 25px;
+                /* -webkit-box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f;
+                        box-shadow: 0 10px 10px #ffff003f, 0 2px 10px #ffff003f; */
+
+            }
+
+            .namepic{
+                font-size: 13px;
+                font-weight: 700;
+                margin-top: 5px ;
+            }
+            .sst{
+                
+                font-weight: 700;
+                margin-top: 5px ;
+            }
+            
+           
+ }
+
